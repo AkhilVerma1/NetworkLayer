@@ -14,6 +14,28 @@
 		4688ECD52BDFBCAB00657A57 /* NetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECD42BDFBCAB00657A57 /* NetworkLayerTests.swift */; };
 		4688ECDF2BDFBCAB00657A57 /* NetworkLayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECDE2BDFBCAB00657A57 /* NetworkLayerUITests.swift */; };
 		4688ECE12BDFBCAB00657A57 /* NetworkLayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECE02BDFBCAB00657A57 /* NetworkLayerUITestsLaunchTests.swift */; };
+		4688ED0B2BDFBCD600657A57 /* OLJSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECED2BDFBCD500657A57 /* OLJSONParameterEncoder.swift */; };
+		4688ED0C2BDFBCD600657A57 /* OLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECEE2BDFBCD500657A57 /* OLParameterEncoding.swift */; };
+		4688ED0D2BDFBCD600657A57 /* OLURLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECEF2BDFBCD500657A57 /* OLURLParameterEncoder.swift */; };
+		4688ED0E2BDFBCD600657A57 /* OLAPIFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECF12BDFBCD500657A57 /* OLAPIFetcher.swift */; };
+		4688ED0F2BDFBCD600657A57 /* OLAPIMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECF22BDFBCD500657A57 /* OLAPIMode.swift */; };
+		4688ED102BDFBCD600657A57 /* OLFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECF32BDFBCD500657A57 /* OLFetcher.swift */; };
+		4688ED112BDFBCD600657A57 /* OLNetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECF52BDFBCD500657A57 /* OLNetworkConstants.swift */; };
+		4688ED122BDFBCD600657A57 /* OLNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECF62BDFBCD500657A57 /* OLNetworkError.swift */; };
+		4688ED132BDFBCD600657A57 /* OLNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECF72BDFBCD500657A57 /* OLNetworkResponse.swift */; };
+		4688ED142BDFBCD600657A57 /* OLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECF82BDFBCD500657A57 /* OLResult.swift */; };
+		4688ED152BDFBCD600657A57 /* OLNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECFA2BDFBCD500657A57 /* OLNetworkManager.swift */; };
+		4688ED162BDFBCD600657A57 /* OLOfflineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECFB2BDFBCD500657A57 /* OLOfflineManager.swift */; };
+		4688ED172BDFBCD600657A57 /* OLAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECFD2BDFBCD500657A57 /* OLAPIResponse.swift */; };
+		4688ED182BDFBCD600657A57 /* OLHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ECFF2BDFBCD500657A57 /* OLHTTPMethod.swift */; };
+		4688ED192BDFBCD600657A57 /* OLHTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ED002BDFBCD500657A57 /* OLHTTPTask.swift */; };
+		4688ED1A2BDFBCD600657A57 /* OLNetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ED012BDFBCD500657A57 /* OLNetworkLogger.swift */; };
+		4688ED1B2BDFBCD600657A57 /* OLRequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ED022BDFBCD500657A57 /* OLRequestExecutor.swift */; };
+		4688ED1C2BDFBCD600657A57 /* OLRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ED032BDFBCD500657A57 /* OLRequestType.swift */; };
+		4688ED1D2BDFBCD600657A57 /* OLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ED042BDFBCD500657A57 /* OLRouter.swift */; };
+		4688ED1E2BDFBCD600657A57 /* OLRequestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ED062BDFBCD500657A57 /* OLRequestConfiguration.swift */; };
+		4688ED1F2BDFBCD600657A57 /* OLRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ED072BDFBCD500657A57 /* OLRequests.swift */; };
+		4688ED202BDFBCD600657A57 /* OLURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688ED082BDFBCD500657A57 /* OLURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +66,28 @@
 		4688ECDA2BDFBCAB00657A57 /* NetworkLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4688ECDE2BDFBCAB00657A57 /* NetworkLayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerUITests.swift; sourceTree = "<group>"; };
 		4688ECE02BDFBCAB00657A57 /* NetworkLayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4688ECED2BDFBCD500657A57 /* OLJSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLJSONParameterEncoder.swift; sourceTree = "<group>"; };
+		4688ECEE2BDFBCD500657A57 /* OLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLParameterEncoding.swift; sourceTree = "<group>"; };
+		4688ECEF2BDFBCD500657A57 /* OLURLParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLURLParameterEncoder.swift; sourceTree = "<group>"; };
+		4688ECF12BDFBCD500657A57 /* OLAPIFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLAPIFetcher.swift; sourceTree = "<group>"; };
+		4688ECF22BDFBCD500657A57 /* OLAPIMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLAPIMode.swift; sourceTree = "<group>"; };
+		4688ECF32BDFBCD500657A57 /* OLFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLFetcher.swift; sourceTree = "<group>"; };
+		4688ECF52BDFBCD500657A57 /* OLNetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLNetworkConstants.swift; sourceTree = "<group>"; };
+		4688ECF62BDFBCD500657A57 /* OLNetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLNetworkError.swift; sourceTree = "<group>"; };
+		4688ECF72BDFBCD500657A57 /* OLNetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLNetworkResponse.swift; sourceTree = "<group>"; };
+		4688ECF82BDFBCD500657A57 /* OLResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLResult.swift; sourceTree = "<group>"; };
+		4688ECFA2BDFBCD500657A57 /* OLNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLNetworkManager.swift; sourceTree = "<group>"; };
+		4688ECFB2BDFBCD500657A57 /* OLOfflineManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLOfflineManager.swift; sourceTree = "<group>"; };
+		4688ECFD2BDFBCD500657A57 /* OLAPIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLAPIResponse.swift; sourceTree = "<group>"; };
+		4688ECFF2BDFBCD500657A57 /* OLHTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLHTTPMethod.swift; sourceTree = "<group>"; };
+		4688ED002BDFBCD500657A57 /* OLHTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLHTTPTask.swift; sourceTree = "<group>"; };
+		4688ED012BDFBCD500657A57 /* OLNetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLNetworkLogger.swift; sourceTree = "<group>"; };
+		4688ED022BDFBCD500657A57 /* OLRequestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLRequestExecutor.swift; sourceTree = "<group>"; };
+		4688ED032BDFBCD500657A57 /* OLRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLRequestType.swift; sourceTree = "<group>"; };
+		4688ED042BDFBCD500657A57 /* OLRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLRouter.swift; sourceTree = "<group>"; };
+		4688ED062BDFBCD500657A57 /* OLRequestConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLRequestConfiguration.swift; sourceTree = "<group>"; };
+		4688ED072BDFBCD500657A57 /* OLRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLRequests.swift; sourceTree = "<group>"; };
+		4688ED082BDFBCD500657A57 /* OLURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +138,7 @@
 		4688ECC22BDFBCAA00657A57 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				4688ED0A2BDFBCD500657A57 /* Layer */,
 				4688ECC32BDFBCAA00657A57 /* NetworkLayerApp.swift */,
 				4688ECC52BDFBCAA00657A57 /* ContentView.swift */,
 				4688ECC72BDFBCAA00657A57 /* Assets.xcassets */,
@@ -125,6 +170,91 @@
 				4688ECE02BDFBCAB00657A57 /* NetworkLayerUITestsLaunchTests.swift */,
 			);
 			path = NetworkLayerUITests;
+			sourceTree = "<group>";
+		};
+		4688ECF02BDFBCD500657A57 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				4688ECED2BDFBCD500657A57 /* OLJSONParameterEncoder.swift */,
+				4688ECEE2BDFBCD500657A57 /* OLParameterEncoding.swift */,
+				4688ECEF2BDFBCD500657A57 /* OLURLParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		4688ECF42BDFBCD500657A57 /* Fetchers */ = {
+			isa = PBXGroup;
+			children = (
+				4688ECF12BDFBCD500657A57 /* OLAPIFetcher.swift */,
+				4688ECF22BDFBCD500657A57 /* OLAPIMode.swift */,
+				4688ECF32BDFBCD500657A57 /* OLFetcher.swift */,
+			);
+			path = Fetchers;
+			sourceTree = "<group>";
+		};
+		4688ECF92BDFBCD500657A57 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4688ECF52BDFBCD500657A57 /* OLNetworkConstants.swift */,
+				4688ECF62BDFBCD500657A57 /* OLNetworkError.swift */,
+				4688ECF72BDFBCD500657A57 /* OLNetworkResponse.swift */,
+				4688ECF82BDFBCD500657A57 /* OLResult.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4688ECFC2BDFBCD500657A57 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4688ECFA2BDFBCD500657A57 /* OLNetworkManager.swift */,
+				4688ECFB2BDFBCD500657A57 /* OLOfflineManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4688ECFE2BDFBCD500657A57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4688ECFD2BDFBCD500657A57 /* OLAPIResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4688ED052BDFBCD500657A57 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4688ECFF2BDFBCD500657A57 /* OLHTTPMethod.swift */,
+				4688ED002BDFBCD500657A57 /* OLHTTPTask.swift */,
+				4688ED012BDFBCD500657A57 /* OLNetworkLogger.swift */,
+				4688ED022BDFBCD500657A57 /* OLRequestExecutor.swift */,
+				4688ED032BDFBCD500657A57 /* OLRequestType.swift */,
+				4688ED042BDFBCD500657A57 /* OLRouter.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4688ED092BDFBCD500657A57 /* Urls */ = {
+			isa = PBXGroup;
+			children = (
+				4688ED062BDFBCD500657A57 /* OLRequestConfiguration.swift */,
+				4688ED072BDFBCD500657A57 /* OLRequests.swift */,
+				4688ED082BDFBCD500657A57 /* OLURL.swift */,
+			);
+			path = Urls;
+			sourceTree = "<group>";
+		};
+		4688ED0A2BDFBCD500657A57 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				4688ECF02BDFBCD500657A57 /* Encoding */,
+				4688ECF42BDFBCD500657A57 /* Fetchers */,
+				4688ECF92BDFBCD500657A57 /* Helper */,
+				4688ECFC2BDFBCD500657A57 /* Managers */,
+				4688ECFE2BDFBCD500657A57 /* Models */,
+				4688ED052BDFBCD500657A57 /* Service */,
+				4688ED092BDFBCD500657A57 /* Urls */,
+			);
+			path = Layer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +387,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4688ED132BDFBCD600657A57 /* OLNetworkResponse.swift in Sources */,
+				4688ED122BDFBCD600657A57 /* OLNetworkError.swift in Sources */,
+				4688ED1D2BDFBCD600657A57 /* OLRouter.swift in Sources */,
+				4688ED1F2BDFBCD600657A57 /* OLRequests.swift in Sources */,
+				4688ED202BDFBCD600657A57 /* OLURL.swift in Sources */,
+				4688ED192BDFBCD600657A57 /* OLHTTPTask.swift in Sources */,
+				4688ED0F2BDFBCD600657A57 /* OLAPIMode.swift in Sources */,
 				4688ECC62BDFBCAA00657A57 /* ContentView.swift in Sources */,
+				4688ED1A2BDFBCD600657A57 /* OLNetworkLogger.swift in Sources */,
+				4688ED152BDFBCD600657A57 /* OLNetworkManager.swift in Sources */,
+				4688ED112BDFBCD600657A57 /* OLNetworkConstants.swift in Sources */,
+				4688ED0B2BDFBCD600657A57 /* OLJSONParameterEncoder.swift in Sources */,
 				4688ECC42BDFBCAA00657A57 /* NetworkLayerApp.swift in Sources */,
+				4688ED162BDFBCD600657A57 /* OLOfflineManager.swift in Sources */,
+				4688ED182BDFBCD600657A57 /* OLHTTPMethod.swift in Sources */,
+				4688ED142BDFBCD600657A57 /* OLResult.swift in Sources */,
+				4688ED172BDFBCD600657A57 /* OLAPIResponse.swift in Sources */,
+				4688ED0C2BDFBCD600657A57 /* OLParameterEncoding.swift in Sources */,
+				4688ED0D2BDFBCD600657A57 /* OLURLParameterEncoder.swift in Sources */,
+				4688ED1C2BDFBCD600657A57 /* OLRequestType.swift in Sources */,
+				4688ED102BDFBCD600657A57 /* OLFetcher.swift in Sources */,
+				4688ED1E2BDFBCD600657A57 /* OLRequestConfiguration.swift in Sources */,
+				4688ED1B2BDFBCD600657A57 /* OLRequestExecutor.swift in Sources */,
+				4688ED0E2BDFBCD600657A57 /* OLAPIFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
